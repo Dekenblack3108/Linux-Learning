@@ -14,3 +14,14 @@ Dar permisos de ejecución al script:
 
 ```bash
 chmod +x scripts/backup.sh
+```
+### monitor.sh 
+
+Script Bash utilizado para monitorear información básica del sistema Linux.
+
+```bash
+chmod +x scripts/monitor.sh
+./scripts/monitor.sh
+```
+
+
