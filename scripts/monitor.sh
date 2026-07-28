@@ -6,7 +6,7 @@ echo "======================================================"
 
 echo ""
 echo "--- USO DE CPU ---"
-top -bn1 | grep "cpu(s) | awk '{print "CPU en uso: " $2 "%"}"
+top -bn1 | grep "Cpu(s)" | awk '{print "CPU en uso: " $2 "%"}'
 
 echo ""
 echo "--- MEMORIA RAM ---"
