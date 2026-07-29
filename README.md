@@ -28,8 +28,8 @@ Busca y elimina archivos con más de 7 días de antigüedad en `/tmp` y `~/.cach
 Incluye modo simulación para revisar qué se borraría sin eliminar nada.
 
 **Uso:**
-\`\`\`bash
+```bash
 ./scripts/cleaner.sh --dry-run   # solo muestra que se borraria
 ./scripts/cleaner.sh             # borra de verdad
-\`\`\`
+```
 
